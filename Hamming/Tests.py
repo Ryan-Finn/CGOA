@@ -230,8 +230,8 @@ class testMain(TestCase):
 
         correct = ("Message          : [0]\n"
                    "Send Vector      : [0 0 0]\n"
-                   "Received Message : [0 1 0]\n"
-                   "Parity Check     : [0 1]\n"
+                   "Received Message : [0 0 1]\n"
+                   "Parity Check     : [1 1]\n"
                    "Corrected Message: [0 0 0]\n"
                    "Decoded Message  : [0]\n")
 
@@ -251,8 +251,8 @@ class testMain(TestCase):
 
         correct = ("Message          : [0 1 1 0]\n"
                    "Send Vector      : [1 1 0 0 1 1 0]\n"
-                   "Received Message : [1 1 0 1 1 1 0]\n"
-                   "Parity Check     : [0 0 1]\n"
+                   "Received Message : [1 1 1 0 1 1 0]\n"
+                   "Parity Check     : [1 1 0]\n"
                    "Corrected Message: [1 1 0 0 1 1 0]\n"
                    "Decoded Message  : [0 1 1 0]\n")
 
@@ -274,8 +274,8 @@ class testMain(TestCase):
                    "Must be a positive integer!\n"
                    "Message          : [0]\n"
                    "Send Vector      : [0 0 0]\n"
-                   "Received Message : [0 1 0]\n"
-                   "Parity Check     : [0 1]\n"
+                   "Received Message : [0 0 1]\n"
+                   "Parity Check     : [1 1]\n"
                    "Corrected Message: [0 0 0]\n"
                    "Decoded Message  : [0]\n")
 
@@ -297,8 +297,8 @@ class testMain(TestCase):
                    "Must be a positive integer!\n"
                    "Message          : [0]\n"
                    "Send Vector      : [0 0 0]\n"
-                   "Received Message : [0 1 0]\n"
-                   "Parity Check     : [0 1]\n"
+                   "Received Message : [0 0 1]\n"
+                   "Parity Check     : [1 1]\n"
                    "Corrected Message: [0 0 0]\n"
                    "Decoded Message  : [0]\n")
 
