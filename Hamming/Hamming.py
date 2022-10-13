@@ -131,7 +131,6 @@ def receiveMessage(x):
     D = len(r) - n
 
     R = makeR(n, D)
-    print(R)
     p = np.matmul(R, r) % 2
     print("Decoded Message  :", p.astype(int))
 
