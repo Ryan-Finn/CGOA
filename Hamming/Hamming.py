@@ -121,9 +121,9 @@ def receiveMessage(x):
     :return: Decoded message
     """
     r = x.copy()
-    rand = np.random.randint(-1, len(r))
-    if rand >= 0:
-        r[rand] = not r[rand]
+    e = np.random.randint(-1, len(r))
+    if e >= 0:
+        r[e] = not r[e]
     print("Received Message :", r.astype(int))
 
     r = errorCorrect(r)
