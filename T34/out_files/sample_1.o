@@ -1,10 +1,8 @@
-         ORG  $F000
-START    SEI
-         CLD
-         LDX  #$FF
-         TXS
-         LDA  #$00
-ZERO     STA  $00,X
-         DEX
-         BNE  ZERO
-         END
+F000: 78
+F001: D8
+F002: A2 FF
+F004: 9A
+F005: A9 00
+F007: 95 00
+F009: CA
+F00A: D0 FB
