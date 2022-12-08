@@ -300,7 +300,7 @@ def prettyPrint(order):
         print(*string)
 
 
-def console_out(filename):
+def consoleOut(filename):
     global errors, symbol_table, start, end
     with open(f'sample_files/{filename}.s', 'r') as source:
         with open(f'out_files/{filename}.o', 'r') as o:
@@ -335,7 +335,7 @@ def main():
 
     lines = read(filename)
     write(filename, lines)
-    console_out(filename)
+    consoleOut(filename)
 
 
 if __name__ == '__main__':
